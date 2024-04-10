@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="main.css" />
+    <title>Hangman game</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <span class="title">Hangman Game</span>
+        <span class="category">Category: <span id="Category"></span></span>
+      </div>
+      <div class="game">
+        <div class="hangman-box" id="draw">
+          <div class="floor"></div>
+          <div class="vertical-up"></div>
+          <div class="horizontal"></div>
+          <div class="vertical-down"></div>
+          <div class="roper"></div>
+          <div class="face"></div>
+          <div class="body"></div>
+          <div class="hands">
+            <div class="left-hand"></div>
+            <div class="right-hand"></div>
+          </div>
+          <div class="legs">
+            <div class="left-foot"></div>
+            <div class="right-foot"></div>
+          </div>
+        </div>
+        <div class="words" id="words"></div>
+      </div>
+      <div class="show" id="w">
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
